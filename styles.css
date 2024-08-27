@@ -1,0 +1,88 @@
+body {
+    font-family: Trebuchet, sans-serif;
+    padding-top: 56px;
+}
+
+.hero {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.about, .portfolio, .contact {
+    padding: 100px 0;
+}
+
+.btn.btn-primary {
+    background: #494ca2;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.btn.btn-primary:hover{
+    background: #343674;
+}
+
+.btn.btn-outline {
+    background: none;
+    border-color: #494ca2;
+    color: #494ca2;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    .portfolio-item img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio-item img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-item img {
+        height: 350px;
+    }
+}
+
+.filter-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-btn.active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Animation for portfolio items */
+.portfolio-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.card-description{
+    color: rgb(136, 136, 136);
+}
