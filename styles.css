@@ -35,6 +35,17 @@ body {
     border-radius: 40px;
 }
 
+.btn.btn-outline:hover {
+    background: #494ca2;
+    border-color: #494ca2;
+    color: #fff;
+}
+
+.btn.btn-outline.active {
+    background: #494ca2;
+    border-color: #494ca2;
+    color: #fff;
+}
 
 .portfolio-item {
     margin-bottom: 30px;
